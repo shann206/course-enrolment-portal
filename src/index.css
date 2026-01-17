@@ -255,3 +255,23 @@ footer.container {
     width: 60%;
   }
 }
+
+.categories li a {
+  display: block;
+  padding: 1em;
+  border-radius: 6px;
+  transition: background-color 0.25s, transform 0.15s;
+  text-align: center;
+}
+
+.categories li a:hover {
+  background-color: grey;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.categories a.category-active {
+  background-color: #75bebd;
+  color: #fff;
+  transform: translateY(-3px);
+}

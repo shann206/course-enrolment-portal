@@ -13,7 +13,8 @@ export default function Diplomas() {
   return (
     <div className="container">
       <h1>Schools</h1>
-      <input placeholder="Search Diplomas..." value={searchText} onChange={(e) => setSearchText(e.target.value)} />
+
+        <input className="search-input" placeholder="Search Diplomas..." value={searchText} onChange={(e) => setSearchText(e.target.value)} />
 
       <ul className="categories">
         {filteredDiplomas.map(cat => (
